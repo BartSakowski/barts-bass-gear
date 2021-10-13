@@ -3,8 +3,6 @@ import Link from 'next/link'
 
 import Navlinks from "./Navlinks"
 
-
-
 const Navi = styled.nav`
   position: fixed;
   top:0;

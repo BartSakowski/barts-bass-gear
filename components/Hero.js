@@ -1,6 +1,4 @@
 import Image from 'next/image'
-
-
 import styled from "styled-components"
 
 const HeroContainer = styled.div`
@@ -12,9 +10,6 @@ const HeroContainer = styled.div`
     object-fit: cover;
 
   }
-
-  
-  
 `
 
 const HeroTextBlock = styled.div`
@@ -26,11 +21,6 @@ const HeroTextBlock = styled.div`
   z-index: 99;
   position: absolute;
   padding: 50vh 0;
-
- 
-
-
-
 `
 
 
@@ -39,16 +29,15 @@ export default function Hero() {
     <HeroContainer>
       <Image 
         src='/hero-img.jpg'
+        alt='Image of Bart Sakowski, Developer and Bass Player'
         layout='fill'
-
       />
       <HeroTextBlock>
-
         <h1>Bart Sakowski</h1>
+        <br />
         <h3>Developer By Day</h3>
         <h3>Bass Player By Every Other Time</h3>
         <h4>(unless I'm coding)</h4>
-
       </HeroTextBlock>
     </HeroContainer>
   )
