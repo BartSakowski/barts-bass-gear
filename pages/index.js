@@ -3,6 +3,7 @@ import GlobalStyle from '../styles/globalStyles'
 
 import Navbar from '../components/navbar/Navbar'
 import Hero from '../components/Hero'
+import About from '../components/About'
 
 
 import Footer from '../components/Footer'
@@ -18,6 +19,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Hero />
+      <About />
       
       <Footer />
     </div>

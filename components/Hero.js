@@ -5,6 +5,7 @@ const HeroContainer = styled.div`
   width: 100%;
   height: 100vh;
   max-height: 1050px;
+  overflow: hidden;
 
   img {
     object-fit: cover;

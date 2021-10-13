@@ -5,8 +5,8 @@ import Navlinks from "./Navlinks"
 
 const Navi = styled.nav`
   position: fixed;
-  top:0;
-  z-index:999;
+  top: 0;
+  z-index: 999;
   width: 100vw;
   height: 80px;
   padding: 0 30px;
@@ -21,13 +21,13 @@ const Navi = styled.nav`
     padding: 0 20px;
     width: 100px;
     text-align: center;
+
     a {
       color: #fff;
       text-decoration: none;
       height: 80px;
       line-height: 80px;
-      vertical-align: middle;
-      
+      vertical-align: middle; 
     }
   }
 `
