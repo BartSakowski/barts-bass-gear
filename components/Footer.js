@@ -10,10 +10,6 @@ const FooterContainer = styled.footer`
   background-color: #323232;
   color: #fff;
 `
-
-
-
-
 export default function Footer() {
   return (
     <FooterContainer>
